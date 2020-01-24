@@ -18,7 +18,23 @@ router.get('/', (req, res) => {
   });
 
 
-
+  router.post('/', (req, res) => {
+    const data = req.body;
+    if (!data.Name || !data.Description) {
+        res.status(400).json( { errorMessage: "Please provide name and description for the post." })
+    } else {
+        Projects 
+        .insert(data, req.params.id) 
+        .then(projects => {
+             res.status(201).json(projects)
+        })
+        .catch(error => {
+            console.log(error)
+            res.status(500).json({error: "Error adding the post"})
+        })
+    }
+    
+});
 
 
 

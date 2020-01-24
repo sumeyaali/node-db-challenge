@@ -34,7 +34,7 @@ Follow these steps for completing your project.
 
 Commit your code regularly and use descriptive messages. This helps both you (in case you ever need to return to old code) and your Team Lead.
 
-## Self-Study/Essay Questions
+## Self-Study/Essasy Questions
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
@@ -74,12 +74,12 @@ Complete the following tasks:
 
   - [ ] retrieving a list of resources. [GET] [/api/resources]
 
-  - [ ] adding projects. [PUT] [/api/projects/:id]
+  - [ ] adding projects. [POST] [/api/projects/:id]
 
   - [ ] retrieving a list of projects. [GET] [/api/projects]
 
-  - [ ] adding tasks. [PUT] [/api/tasks/:id]
-  
+  - [ ] adding tasks. [POST] [/api/tasks/:id]
+
   - [ ] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
 
 ### Entities
