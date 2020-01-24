@@ -57,17 +57,29 @@ Complete the following tasks:
   - [ ] a `task` belongs to only one `project`.
   - [ ] a `project` can use multiple `resources`. Example of `resources` are: computer, conference room, microphone, delivery van.
   - [ ] the same `resource` can be used in multiple `projects`.
+
   - [ ] when adding `projects` the client must provide a name, the description is optional.
+
   - [ ] when adding `resources` the client must provide a name, the description is optional.
+
   - [ ] when adding a `task` the client must provide a description, the notes are optional.
   - [ ] when adding a `task` the client must provide the `id` of an existing project.
+
   - [ ] for `projects` and `tasks` if no value is provided for the `completed` property, the API should provide a default value of `false`.
+
 - [ ] Build an API with endpoints for:
-  - [ ] adding resources.
-  - [ ] retrieving a list of resources.
-  - [ ] adding projects.
-  - [ ] retrieving a list of projects.
-  - [ ] adding tasks.
+
+
+  - [ ] adding resources. [POST] [/api/resources/:id]
+
+  - [ ] retrieving a list of resources. [GET] [/api/resources]
+
+  - [ ] adding projects. [PUT] [/api/projects/:id]
+
+  - [ ] retrieving a list of projects. [GET] [/api/projects]
+
+  - [ ] adding tasks. [PUT] [/api/tasks/:id]
+  
   - [ ] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
 
 ### Entities
