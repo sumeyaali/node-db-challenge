@@ -40,11 +40,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+        	- Relational Databases are a database management system that stores data into tables while SQL is a language that is typically used to query the RDBMS.  Essentially RDBMS is the system  and SQL is the language used to interact with it. 
+
+
 - [ ] Why do tables need a `primary key`?
+          To uniquly identify data. 
+
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+        Foreign keys
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+          You need to have foriegn keys that refrence the primary key of the tables. 
+
 
 ## Minimum Viable Product
 
